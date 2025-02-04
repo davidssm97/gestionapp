@@ -3,10 +3,11 @@ import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
-import { Menu } from './components/common/Menu/Menu'
+import { Home } from './components/pages/Home/Home'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Menu></Menu>
+    <Home></Home>
   </StrictMode>,
 )
